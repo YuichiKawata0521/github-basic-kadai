@@ -1,0 +1,29 @@
+PS C:\Users\USER\Desktop\git_kadai> echo "Hello, world!" > hello_world.txt     
+Hello, world!
+
+PS C:\Users\USER\Desktop\git_kadai> git commit -m "Add hello_world.txt"        
+[main (root-commit) 728d3e5] Add hello_world.txt
+ create mode 100644 hello_world.txt
+PS C:\Users\USER\Desktop\git_kadai> git log --oneline
+728d3e5 (HEAD -> main) Add hello_world.txt
+PS C:\Users\USER\Desktop\git_kadai> git add hello_world.txt
+PS C:\Users\USER\Desktop\git_kadai> git commit -m "Add Japanese"
+[main 4936435] Add Japanese
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\USER\Desktop\git_kadai> git log --oneline
+4936435 (HEAD -> main) Add Japanese
+728d3e5 Add hello_world.txt
+PS C:\Users\USER\Desktop\git_kadai> cd . 
+PS C:\Users\USER\Desktop> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\USER\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/05/24     14:41                kadai_005
+
+
+PS C:\Users\USER\Desktop> cd ./kadai_005
+PS C:\Users\USER\Desktop\kadai_005>
